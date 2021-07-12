@@ -1,5 +1,5 @@
-import numpy as np
-import matplotlib.pyplot as plt
+import numpy as np #sin arange 函数包
+import matplotlib.pyplot as plt #plot 函数包
 
 x = list(np.arange(-2*np.pi , 2*np.pi , 0.1))
 y = np.sin(x)
